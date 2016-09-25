@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FamousCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="303" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="303" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTc-EJ-14a">
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="钟贤文" translatesAutoresizingMaskIntoConstraints="NO" id="z6V-eS-z1P">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="116" id="1GJ-Gt-oAE"/>
+                            <constraint firstAttribute="height" constant="139" id="sdk-ex-R3B"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mi0-gr-qOp">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZTc-EJ-14a" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="3QE-YE-9TP"/>
+                <constraint firstItem="ZTc-EJ-14a" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="1:1" placeholder="YES" id="41d-AV-L9Y"/>
+                <constraint firstAttribute="trailing" secondItem="Mi0-gr-qOp" secondAttribute="trailing" constant="8" id="73c-pH-DFP"/>
+                <constraint firstAttribute="bottom" secondItem="z6V-eS-z1P" secondAttribute="bottom" constant="21" id="DC9-1L-hLu"/>
+                <constraint firstItem="Mi0-gr-qOp" firstAttribute="top" secondItem="ZTc-EJ-14a" secondAttribute="bottom" constant="18" id="HHY-0q-eXP"/>
+                <constraint firstItem="Mi0-gr-qOp" firstAttribute="leading" secondItem="z6V-eS-z1P" secondAttribute="trailing" constant="19" id="HIu-Wf-s5r"/>
+                <constraint firstAttribute="bottom" secondItem="Mi0-gr-qOp" secondAttribute="bottom" constant="25" id="IZh-bk-6Db"/>
+                <constraint firstItem="ZTc-EJ-14a" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="cvG-f3-8yg"/>
+                <constraint firstItem="z6V-eS-z1P" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="dHJ-lq-PaE"/>
+                <constraint firstItem="z6V-eS-z1P" firstAttribute="top" secondItem="ZTc-EJ-14a" secondAttribute="bottom" constant="18" id="yVK-Hi-vbu"/>
+            </constraints>
+            <size key="customSize" width="303" height="213"/>
+            <connections>
+                <outlet property="imageView" destination="z6V-eS-z1P" id="ffC-lg-4EZ"/>
+                <outlet property="instroduceLabel" destination="Mi0-gr-qOp" id="VO8-ou-cmw"/>
+                <outlet property="nameLabel" destination="ZTc-EJ-14a" id="ukX-af-14C"/>
+            </connections>
+            <point key="canvasLocation" x="-15" y="-20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="钟贤文" width="268" height="388"/>
+    </resources>
+</document>

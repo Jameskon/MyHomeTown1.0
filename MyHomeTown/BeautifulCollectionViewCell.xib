@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BeautifulCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="186"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="186"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1B1-dt-hGd">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Fea-Gh-erR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seen1" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-rT-EF5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXe-p8-QBX">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="★★★★★" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlB-vH-IAo">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="127" id="7TG-bA-GUY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bXe-p8-QBX" secondAttribute="trailing" constant="13" id="35L-aH-dhL"/>
+                <constraint firstAttribute="trailing" secondItem="TlB-vH-IAo" secondAttribute="trailing" constant="36" id="3Xg-bf-hQ0"/>
+                <constraint firstItem="bXe-p8-QBX" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="3kN-PN-NA8"/>
+                <constraint firstItem="TlB-vH-IAo" firstAttribute="leading" secondItem="hfc-rT-EF5" secondAttribute="trailing" constant="24" id="6Wk-r5-5Wa"/>
+                <constraint firstAttribute="bottom" secondItem="hfc-rT-EF5" secondAttribute="bottom" constant="34" id="FXv-tX-8Pm"/>
+                <constraint firstItem="hfc-rT-EF5" firstAttribute="top" secondItem="1B1-dt-hGd" secondAttribute="bottom" constant="18" id="HU7-3f-gxz"/>
+                <constraint firstItem="TlB-vH-IAo" firstAttribute="top" secondItem="bXe-p8-QBX" secondAttribute="bottom" constant="7" id="TtT-fI-GPu"/>
+                <constraint firstItem="bXe-p8-QBX" firstAttribute="leading" secondItem="hfc-rT-EF5" secondAttribute="trailing" constant="6" id="bZ7-aE-xEf"/>
+                <constraint firstItem="1B1-dt-hGd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="bmW-zG-ftK"/>
+                <constraint firstItem="1B1-dt-hGd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="topMargin" id="iE5-G2-viJ"/>
+                <constraint firstItem="1B1-dt-hGd" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailingMargin" id="odM-uH-73n"/>
+                <constraint firstItem="bXe-p8-QBX" firstAttribute="top" secondItem="1B1-dt-hGd" secondAttribute="bottom" constant="23" id="rkx-eX-3ZA"/>
+                <constraint firstItem="1B1-dt-hGd" firstAttribute="leading" secondItem="hfc-rT-EF5" secondAttribute="leading" id="vzp-4t-ccO"/>
+            </constraints>
+            <size key="customSize" width="347" height="186"/>
+            <connections>
+                <outlet property="starsLabel" destination="TlB-vH-IAo" id="mHI-2W-dkl"/>
+                <outlet property="theNameLabel" destination="1B1-dt-hGd" id="Rxc-ZG-PND"/>
+                <outlet property="whereImageView" destination="hfc-rT-EF5" id="ait-te-IKx"/>
+                <outlet property="whereLabel" destination="bXe-p8-QBX" id="E0K-5h-bVt"/>
+            </connections>
+            <point key="canvasLocation" x="18.5" y="168"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="seen1" width="388" height="290"/>
+    </resources>
+</document>

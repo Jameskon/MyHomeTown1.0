@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HMQ-F0-zMw" customClass="TestThree5">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="317"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="气候" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yua-Uf-pCR">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NGR-Y7-zyF"/>
+                        <constraint firstAttribute="width" constant="46" id="TsF-Sl-aix"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiangxi7" translatesAutoresizingMaskIntoConstraints="NO" id="V2T-vh-3Y0">
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="V2T-vh-3Y0" secondAttribute="height" multiplier="164:141" id="9NB-no-nw4"/>
+                        <constraint firstAttribute="height" constant="100" id="xTB-Mk-wpp"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="sJA-9o-dLs" appends="YES" id="cuI-Vu-8qQ"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xFM-5t-5fd">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="xFM-5t-5fd" secondAttribute="height" multiplier="213:215" id="YVq-g6-hmn"/>
+                    </constraints>
+                    <mutableString key="text">气候属中亚热带温暖湿润季风气候，年均温约16.3-19.5℃，
+一般自北向南递增。赣东北、赣西北山区与鄱阳湖平原，年均温为16.3-17.5℃，赣南盆地则为19.0-19.5℃。夏季较长，7月均温，除省境周围山区在26.9-28.0℃外，南北差异很小，都在28.0-29.8℃。极端最高温几乎都在40℃以上，成为长江中游最热地区之一。冬季较短，1月均温赣北鄱阳湖平原为3.6-5.0℃，赣南盆地为6.2-8.5℃。全省冬暖夏热，无霜期长达240-307天。日均温稳定超过10℃的持续期为240-270天，活动积温5000-6000℃，对于发展以双季稻为主的三熟制及喜温的亚热带经济林木均甚有利。唯北部地形开敞，特大寒潮南侵时有不利影响。</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Yua-Uf-pCR" firstAttribute="leading" secondItem="HMQ-F0-zMw" secondAttribute="leading" constant="8" id="2tY-Qx-A5O"/>
+                <constraint firstItem="V2T-vh-3Y0" firstAttribute="top" secondItem="HMQ-F0-zMw" secondAttribute="top" constant="106" id="37U-FA-yBB"/>
+                <constraint firstItem="xFM-5t-5fd" firstAttribute="leading" secondItem="HMQ-F0-zMw" secondAttribute="leading" constant="6" id="4ag-5T-pYM"/>
+                <constraint firstItem="xFM-5t-5fd" firstAttribute="top" secondItem="Yua-Uf-pCR" secondAttribute="bottom" constant="30" id="SWP-FJ-kE6"/>
+                <constraint firstAttribute="trailing" secondItem="V2T-vh-3Y0" secondAttribute="trailing" constant="31" id="WBk-Kf-sPk"/>
+                <constraint firstItem="Yua-Uf-pCR" firstAttribute="top" secondItem="HMQ-F0-zMw" secondAttribute="top" constant="6" id="aaN-DE-u3l"/>
+                <constraint firstItem="V2T-vh-3Y0" firstAttribute="leading" secondItem="xFM-5t-5fd" secondAttribute="trailing" constant="8" id="tF1-8j-Yd6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="whereImageView" destination="V2T-vh-3Y0" id="HCT-OY-50Y"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="207.5"/>
+        </view>
+        <tapGestureRecognizer id="sJA-9o-dLs">
+            <connections>
+                <action selector="whereImgeView:" destination="HMQ-F0-zMw" id="k3l-ak-1aU"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="jiangxi7" width="1440" height="900"/>
+    </resources>
+</document>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wtQ-QH-26P" customClass="TestSix">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="1019"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="教育" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2l-m0-FVu">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="Wbr-J5-ykZ"/>
+                        <constraint firstAttribute="height" constant="21" id="nnH-3M-fxa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qGx-yK-dLj">
+                    <string key="text">       2014年末，江西省研究生教育在校研究生2.8万人。普通高校在校生91.6万人。普通高中、初中、小学在校生分别为90.5万人、175.0万人和413.0万人。特殊教育在校生2.0万人。幼儿园11448所，在园幼儿159.4万人。高等教育毛入学率34.5%，比上年提高2.5个百分点；高中阶段毛入学率84.5%，提高2.5个百分点；初中适龄人口入学率98.95%；小学适龄儿童入学率99.83%。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiangxi8" translatesAutoresizingMaskIntoConstraints="NO" id="RQ1-mY-leN">
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="168" id="XGs-n7-Qgk"/>
+                        <constraint firstAttribute="height" constant="107" id="axs-82-fgn"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="CeD-yP-Kzd" appends="YES" id="twu-Rc-QXu"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="社会保险" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUu-Iw-peA">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="LMQ-FY-Gxh"/>
+                        <constraint firstAttribute="width" constant="95" id="pQL-cY-bWo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="01n-eL-mIo">
+                    <string key="text">       截至2014年末，江西省参加城镇基本养老保险人数783.9万人，参加城镇职工医疗保险人数579.2万人。开展新型农村合作医疗试点工作的县（市、区）96个，实现了农村人口全覆盖。参加失业保险人数271.8万人，参加生育保险人数241.1万人。参加工伤保险人数461.2万人。全省城乡561.1万名义务教育阶段公办学校学生全部免除学杂费和免费提供教课书。年末有各类收养性社会福利提供床位17.9万张，收养人数15.8万人。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公路" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTm-fn-jeQ">
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-3O-QEj">
+                    <mutableString key="text">       截止2016年，江西高速公路通车里程5000公里[40]  。江西南昌市，北往九江市、南至赣州市、西至萍乡市、东连上饶市和省外的浙江、上海；西至湖南、重庆；北至安徽，南至广东、福建等各省市的高速公路均已通车。
+江西境内有沪昆高速公路、昌九高速公路、杭瑞高速、梨温高速公路、昌金高速公路、昌赣高速公路、赣粤高速公路、福银高速公路、大广高速、济广高速、厦蓉高速、大广高速、泉南高速公路、京福高速公路、沪瑞高速公路等几十条高速公路。
+此外，省内还有6条国道，分别是东西向的316国道、319国道、320国道、323国道和南北向的105国道、206国道。其中105国道和206国道双双纵贯江西。</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="铁路" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-CY-aDB">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="aZP-in-hHD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nmt-wF-N35">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="73" id="bAL-Z2-8RK"/>
+                    </constraints>
+                    <string key="text">       南昌铁路局为中国最重要的铁路局之一，管辖江西省和福建省的铁路，全省以京九、浙赣、皖赣、鹰厦、铜九、武九6条铁路为骨干，另有横南、向乐、分文、弋樟、张塘、张建、新泰等支线。
+       京台高速铁路、昆台高速铁路、沪昆高速铁路、京九铁路（京九高铁）、九景衢铁路、铜九铁路都从江西经过。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jHn-M8-RHZ">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="t2x-uX-gFq"/>
+                    </constraints>
+                    <string key="text">江西民用航空运输形成了一个以南昌为核心，赣州、井冈山、景德镇、宜春等城市连接全国和世界各地的航空运输网，南昌昌北国际机场是中国及国际客运及货运的航空枢纽，江西还有赣州、井冈山、景德镇、宜春、九江等民航机场。
+2014年，江西省机场旅客吞吐量930万人。其中，南昌昌北国际机场旅客吞吐量724万人。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiangxi9" translatesAutoresizingMaskIntoConstraints="NO" id="Wu3-RM-b9K">
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="126" id="D4E-jx-CwA"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="pBQ-hD-f2b" appends="YES" id="esm-Ym-fyR"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="航道" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2I-Fn-R37">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="eXX-7v-Tij"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nmt-wF-N35" firstAttribute="leading" secondItem="jHn-M8-RHZ" secondAttribute="leading" id="0L2-Hb-pFX"/>
+                <constraint firstItem="01n-eL-mIo" firstAttribute="leading" secondItem="FTm-fn-jeQ" secondAttribute="leading" id="0wE-Ns-fw5"/>
+                <constraint firstItem="RQ1-mY-leN" firstAttribute="top" secondItem="wtQ-QH-26P" secondAttribute="top" constant="75" id="2N3-yW-yBk"/>
+                <constraint firstItem="ZqY-CY-aDB" firstAttribute="top" secondItem="uZM-3O-QEj" secondAttribute="bottom" constant="23" id="3mT-ox-m0b"/>
+                <constraint firstItem="qGx-yK-dLj" firstAttribute="leading" secondItem="YUu-Iw-peA" secondAttribute="leading" id="6sC-iK-5me"/>
+                <constraint firstItem="Wu3-RM-b9K" firstAttribute="top" secondItem="RQ1-mY-leN" secondAttribute="bottom" constant="90" id="70W-MN-yjX"/>
+                <constraint firstItem="ZqY-CY-aDB" firstAttribute="trailing" secondItem="h2I-Fn-R37" secondAttribute="trailing" id="7Eb-DF-jkc"/>
+                <constraint firstItem="FTm-fn-jeQ" firstAttribute="top" secondItem="01n-eL-mIo" secondAttribute="bottom" constant="18" id="BWC-hr-8uz"/>
+                <constraint firstItem="jHn-M8-RHZ" firstAttribute="top" secondItem="h2I-Fn-R37" secondAttribute="bottom" constant="22" id="Cct-3h-xIx"/>
+                <constraint firstItem="RQ1-mY-leN" firstAttribute="trailing" secondItem="Wu3-RM-b9K" secondAttribute="trailing" id="E5f-rj-9gM"/>
+                <constraint firstAttribute="trailing" secondItem="RQ1-mY-leN" secondAttribute="trailing" constant="39" id="Eur-LH-ceS"/>
+                <constraint firstItem="FTm-fn-jeQ" firstAttribute="leading" secondItem="ZqY-CY-aDB" secondAttribute="leading" id="GH2-ax-XHY"/>
+                <constraint firstItem="YUu-Iw-peA" firstAttribute="leading" secondItem="01n-eL-mIo" secondAttribute="leading" id="GKv-A1-Yt5"/>
+                <constraint firstItem="nmt-wF-N35" firstAttribute="trailing" secondItem="jHn-M8-RHZ" secondAttribute="trailing" id="IqR-hx-ZcI"/>
+                <constraint firstItem="h2I-Fn-R37" firstAttribute="top" secondItem="nmt-wF-N35" secondAttribute="bottom" constant="21" id="J42-bX-O1Y"/>
+                <constraint firstItem="RQ1-mY-leN" firstAttribute="leading" secondItem="Wu3-RM-b9K" secondAttribute="leading" id="Kdo-NL-zZ5"/>
+                <constraint firstItem="uZM-3O-QEj" firstAttribute="leading" secondItem="wtQ-QH-26P" secondAttribute="leading" constant="24" id="NBX-QA-xtT"/>
+                <constraint firstItem="uZM-3O-QEj" firstAttribute="centerX" secondItem="wtQ-QH-26P" secondAttribute="centerX" id="P8X-N2-aJj"/>
+                <constraint firstItem="Wu3-RM-b9K" firstAttribute="leading" secondItem="01n-eL-mIo" secondAttribute="trailing" constant="22" id="QKG-ai-8L0"/>
+                <constraint firstItem="FTm-fn-jeQ" firstAttribute="trailing" secondItem="ZqY-CY-aDB" secondAttribute="trailing" id="QXw-1D-Kga"/>
+                <constraint firstItem="j2l-m0-FVu" firstAttribute="trailing" secondItem="FTm-fn-jeQ" secondAttribute="trailing" id="Set-TO-eI4"/>
+                <constraint firstItem="uZM-3O-QEj" firstAttribute="leading" secondItem="nmt-wF-N35" secondAttribute="leading" id="T9r-DR-fny"/>
+                <constraint firstItem="nmt-wF-N35" firstAttribute="top" secondItem="ZqY-CY-aDB" secondAttribute="bottom" constant="19" id="Usg-Fu-Q2t"/>
+                <constraint firstItem="j2l-m0-FVu" firstAttribute="leading" secondItem="wtQ-QH-26P" secondAttribute="leadingMargin" id="XlI-Br-rsv"/>
+                <constraint firstItem="01n-eL-mIo" firstAttribute="centerY" secondItem="Wu3-RM-b9K" secondAttribute="centerY" id="aJc-bR-ZSx"/>
+                <constraint firstItem="uZM-3O-QEj" firstAttribute="top" secondItem="Wu3-RM-b9K" secondAttribute="bottom" constant="71" id="asT-rg-zIc"/>
+                <constraint firstItem="uZM-3O-QEj" firstAttribute="trailing" secondItem="nmt-wF-N35" secondAttribute="trailing" id="fkb-pk-OfH"/>
+                <constraint firstItem="YUu-Iw-peA" firstAttribute="top" secondItem="qGx-yK-dLj" secondAttribute="bottom" constant="15" id="hrY-QE-y2J"/>
+                <constraint firstItem="j2l-m0-FVu" firstAttribute="top" secondItem="wtQ-QH-26P" secondAttribute="top" constant="14" id="ng9-Mr-KSJ"/>
+                <constraint firstItem="qGx-yK-dLj" firstAttribute="centerY" secondItem="RQ1-mY-leN" secondAttribute="centerY" id="phj-4z-gmN"/>
+                <constraint firstItem="01n-eL-mIo" firstAttribute="top" secondItem="YUu-Iw-peA" secondAttribute="bottom" constant="25" id="qTJ-Ik-jvb"/>
+                <constraint firstItem="RQ1-mY-leN" firstAttribute="leading" secondItem="qGx-yK-dLj" secondAttribute="trailing" constant="8" symbolic="YES" id="tDx-Yh-K7B"/>
+                <constraint firstItem="ZqY-CY-aDB" firstAttribute="leading" secondItem="h2I-Fn-R37" secondAttribute="leading" id="y7O-iN-xF7"/>
+                <constraint firstItem="qGx-yK-dLj" firstAttribute="top" secondItem="j2l-m0-FVu" secondAttribute="bottom" constant="20" id="yte-ii-5cH"/>
+                <constraint firstItem="j2l-m0-FVu" firstAttribute="leading" secondItem="qGx-yK-dLj" secondAttribute="leading" id="zRs-L2-g1h"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="whereImageView1" destination="RQ1-mY-leN" id="4Dt-lh-s56"/>
+                <outlet property="whereImageView2" destination="Wu3-RM-b9K" id="6m9-ar-HBR"/>
+            </connections>
+            <point key="canvasLocation" x="-73" y="245"/>
+        </view>
+        <tapGestureRecognizer id="CeD-yP-Kzd">
+            <connections>
+                <action selector="whereImageView1:" destination="wtQ-QH-26P" id="gp2-3F-0aD"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="pBQ-hD-f2b">
+            <connections>
+                <action selector="whereImageView2:" destination="wtQ-QH-26P" id="U7W-43-XkZ"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="jiangxi8" width="500" height="375"/>
+        <image name="jiangxi9" width="800" height="457"/>
+    </resources>
+</document>

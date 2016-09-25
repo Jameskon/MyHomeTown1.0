@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jrE-lE-p7A" customClass="TestThree1">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="jiangxi6" translatesAutoresizingMaskIntoConstraints="NO" id="lHc-1O-BkC">
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="lHc-1O-BkC" secondAttribute="height" multiplier="75:53" id="XWn-2y-VXj"/>
+                        <constraint firstAttribute="width" constant="120" id="qZf-o9-DYz"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="h0Z-tf-tAE" appends="YES" id="kgT-IC-vSo"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="位置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxs-Ob-3GF">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="L9o-KN-kaW"/>
+                        <constraint firstAttribute="width" secondItem="cxs-Ob-3GF" secondAttribute="height" multiplier="44:27" id="qg3-JQ-vZI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="江西地处中国东南部，北纬24°29′14″至30°04′41″，东经113°34′36″至118°28′58″之间，东邻浙江省、福建省，南连广东省，西接湖南省，北毗湖北省、安徽省而共接长江，属于华东地区。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="too-EK-Q5F">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="too-EK-Q5F" secondAttribute="bottom" constant="27" id="5DU-zW-5x3"/>
+                <constraint firstItem="lHc-1O-BkC" firstAttribute="top" secondItem="cxs-Ob-3GF" secondAttribute="bottom" constant="20" id="Enz-NP-K7N"/>
+                <constraint firstItem="cxs-Ob-3GF" firstAttribute="leading" secondItem="jrE-lE-p7A" secondAttribute="leading" constant="8" id="Wnb-mW-1Bk"/>
+                <constraint firstItem="cxs-Ob-3GF" firstAttribute="top" secondItem="jrE-lE-p7A" secondAttribute="top" constant="5" id="XV5-FQ-BO3"/>
+                <constraint firstItem="lHc-1O-BkC" firstAttribute="leading" secondItem="jrE-lE-p7A" secondAttribute="leading" constant="8" id="Yxs-SX-QZV"/>
+                <constraint firstAttribute="trailing" secondItem="too-EK-Q5F" secondAttribute="trailing" constant="6" id="dHM-8g-bDV"/>
+                <constraint firstItem="too-EK-Q5F" firstAttribute="leading" secondItem="lHc-1O-BkC" secondAttribute="trailing" constant="6" id="hIG-yJ-LoS"/>
+                <constraint firstItem="too-EK-Q5F" firstAttribute="top" secondItem="jrE-lE-p7A" secondAttribute="top" constant="40" id="vNU-dX-5wK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="whereImageView" destination="lHc-1O-BkC" id="FAp-mF-EMs"/>
+            </connections>
+            <point key="canvasLocation" x="475" y="154"/>
+        </view>
+        <tapGestureRecognizer id="h0Z-tf-tAE">
+            <connections>
+                <action selector="imageAction:" destination="jrE-lE-p7A" id="roA-dc-Dxk"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="jiangxi6" width="1280" height="800"/>
+    </resources>
+</document>
